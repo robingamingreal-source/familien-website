@@ -71,3 +71,21 @@ iframe{
     border-radius: 10px;
     border: solid 5px #001e6f71;
 }
+
+#bdony-event {
+  font-size: 48px;
+  font-weight: bold;
+  background-image: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: color-shift 5s infinite linear;
+    }
+
+@keyframes color-shift {
+   0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
