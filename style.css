@@ -195,3 +195,10 @@ iframe{
   max-width: 800px;
   margin: 0 auto;
 }
+
+#adblocker {
+  max-width: 30%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 157, 255, 0.5);
+}
