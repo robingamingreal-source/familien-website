@@ -1,10 +1,12 @@
 body{
-    background: linear-gradient(to right, #0044ff, #5410cb);
+    background: url('neon.jpeg') no-repeat center center fixed;
+    background-size: cover;
     font-family: Arial, sans-serif;
     align-items: center;
     text-align: center;
     align-content: center;
     align-self: center;
+    color: rgb(0, 198, 243);
 }
 button {
     background-color: #0f4fff;
