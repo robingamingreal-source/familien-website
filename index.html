@@ -7,21 +7,24 @@
     <title>Familien-Website</title>
 </head>
 <body>
+    <!-- Background Layer (Fixed, behind everything) -->
     <div class="bg-container">
-    <div class="stars" id="stars-container"></div>
-    <div style="position: relative; z-index: 10;">
-     <h1>Willkommen auf der Familien-Website!</h1>
-    <p id="day">Datum</p>
-    <hr>
-    <div id="bdony-event"></div>
-    <button onclick="window.open('http://starlit-declines.tun.ply.gg:34177/s/ptL3cYZSyArPmNx', '_blank')">Familien-Ordner</button>
-    <button onclick="window.open('http://192.168.178.147:2090/')">Tech-Support</button>
-    <button onclick="window.open('http://starlit-declines.tun.ply.gg:34177/s/FCrgow2sE9SBkg7', '_blank')">Server-Status</button>
-    <hr>
-    <p style="color: #fcfcfc; font-size: 20px;">Gemacht von <a href="https://robingamingxd.netlify.app" target="_blank" style="text-decoration: underline; color: rgb(255, 255, 255);">Robin</a></p>
-    <script src="script.js"></script>
-    
+        <div class="stars" id="stars-container"></div>
     </div>
-  </div>
+
+    <!-- Content Layer (Clicks work normally here) -->
+    <div class="content-container">
+        <h1>Willkommen auf der Familien-Website!</h1>
+        <p id="day">Datum</p>
+        <hr>
+        <div id="bdony-event"></div>
+        <button onclick="window.open('http://starlit-declines.tun.ply.gg:34177/s/ptL3cYZSyArPmNx', '_blank')">Familien-Ordner</button>
+        <button onclick="window.open('http://192.168.178.147:2090/')">Tech-Support</button>
+        <button onclick="window.open('http://starlit-declines.tun.ply.gg:34177/s/FCrgow2sE9SBkg7', '_blank')">Server-Status</button>
+        <hr>
+        <p style="color: #fcfcfc; font-size: 20px;">Gemacht von <a href="https://robingamingxd.netlify.app" target="_blank" style="text-decoration: underline; color: rgb(255, 255, 255);">Robin</a></p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
