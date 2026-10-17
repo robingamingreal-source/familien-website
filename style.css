@@ -201,4 +201,12 @@ iframe{
   height: auto;
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 157, 255, 0.5);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  will-change: transform, box-shadow;
+}
+
+#adblocker:hover {
+  z-index: 9999;
+  transform: scale(1.25);
+  box-shadow: 0 15px 25px rgba(0, 157, 255, 0.8);
 }
