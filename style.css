@@ -190,7 +190,7 @@ iframe{
 
 .content-container {
   position: relative;
-  z-index: 1; /* Ensures content sits comfortably above the background */
+  z-index: 1;
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
